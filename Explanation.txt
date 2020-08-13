@@ -1,0 +1,67 @@
+You are given with a NxN matrix, you have to print the spiral form of that matrix, for exmaple,
+The given matrix is,
+1  2  3
+4  5  6
+7  8  9
+The given matrix-> 1 2 3 4 5 6 7 8 9
+The spiral matrix is,
+1 2 3 6 9 8 7 4 5 (spiral in clock wise direction).
+
+Input description:
+First line contains, N the size of the matrix.(1<N<100)
+Second line contains NxN elements of matrix in a single line.
+
+Output Description:
+Print the spiral form of the given matrix.
+
+Sample Input:
+3
+1 2 3 4 5 6 7 8 9
+
+Sample Output:
+1 2 3 6 9 8 7 4 5
+
+Explanation:
+The spiral form in clockwise is 1 2 3 6 9 8 7 4 5
+
+Sample Input:
+2
+1 2 3 4
+
+Sample Output:
+1 2 4 3
+
+Sample Input:
+3
+12 34 56 2 8 7 9 19 20
+
+Sample Output:
+12 34 56 7 20 19 9 2 8
+
+Sample Input:
+4
+2 5 7 9 13 56 47 101 888 333 432 111 22 76 45 88
+
+Sample Output:
+2 5 7 9 101 111 88 45 76 22 888 13 56 47 432 333
+
+Sample Input:
+3
+11 22 33 44 55 66 77 88 99
+
+Sample Output:
+11 22 33 66 99 88 77 44 55
+
+Sample Input:
+2
+101 199 888 999
+
+Sample Output:
+101 199 999 888
+
+Sample Input:
+4
+243 56 78 98 4 66 27 81 99 100 76 534 88 65 37 2811
+
+Sample Output:
+243 56 78 98 81 534 2811 37 65 88 99 4 66 27 76 100
